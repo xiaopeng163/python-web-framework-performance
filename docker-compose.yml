@@ -1,0 +1,19 @@
+version: "3"
+
+services:
+
+  flask:
+    build:
+      context: ./flask/
+    ports:
+      - "8000:8000"
+  fastapi:
+    build:
+      context: ./fastapi/
+    ports:
+      - "5000:5000"
+  blacksheep:
+    build:
+      context: ./blacksheep/
+    ports:
+      - "5050:5050"

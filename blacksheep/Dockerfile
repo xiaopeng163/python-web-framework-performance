@@ -1,0 +1,11 @@
+FROM python:3.11-slim-buster
+
+LABEL maintainer="Peng Xiao<xiaoquwl@gmail.com>"
+
+COPY . /
+
+RUN apt-get update && apt-get install -y build-essential
+
+RUN pip install -r requirements.txt
+
+ENTRYPOINT ["/run_server.sh"]
