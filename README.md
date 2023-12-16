@@ -1,8 +1,6 @@
 # python-web-framework-performance
 
-flask: https://github.com/pallets/flask
-
-responder: https://github.com/kennethreitz/responder
+https://klen.github.io/py-frameworks-bench/
 
 ## wrk testing results
 

@@ -6,4 +6,4 @@ COPY . /
 
 RUN pip install -r requirements.txt
 
-ENTRYPOINT ["/run_server.sh"]
+ENTRYPOINT ["sh", "/run_server.sh"]

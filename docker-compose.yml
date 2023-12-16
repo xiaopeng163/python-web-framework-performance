@@ -17,3 +17,6 @@ services:
       context: ./blacksheep/
     ports:
       - "5050:5050"
+  wrk:
+    image: xiaopeng163/net-box:latest
+    command: /bin/sh -c "while true; do sleep 3600; done"
