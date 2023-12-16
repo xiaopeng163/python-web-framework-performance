@@ -2,6 +2,8 @@
 
 https://klen.github.io/py-frameworks-bench/
 
+https://www.techempower.com/benchmarks/#hw=ph&test=fortune&section=data-r22&l=zijzen-cn3
+
 ## wrk testing results
 
 Using wrk https://github.com/wg/wrk for http benchmarking
